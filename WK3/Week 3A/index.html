@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" rel="About" href="About.html" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/614d252154.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="container" id="header">
+      <nav>
+        <img src="IMAGES/IMG_1705.jpg" class="logo" />
+        <ul>
+          <li><a href="#header">HOME</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+          <li><a href="#Portfolio">PROJECT</a></li>
+          <li><a href="#Services">SERVICES</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <p>Frontend Developer</p>
+      <h1>Hi, I am Uchenna <span>Henry</span></h1>
+      <!--       ABOUT SECTION -->
+      <div id="About">
+        <div class="container">
+          <div class="row">
+            <div class="About-me1">
+              <img src="IMAGES/FBE2B594-D592-4FDA-8627-DA7225D22D2A.png" />
+            </div>
+            <div class="About-me2">
+              <h1 class="subtitle">ABOUT ME</h1>
+              <p>
+                I am a graduate of Electronic Engineering from the University of
+                Nigeria, Nsukka who is trying to learn frontend web development
+                but I feel like tech is not for me cause I have tried over and
+                over again to learn the ropes and it is not just working. I hope
+                this website looks better than it is looking currently.
+              </p>
+
+              <div class="tabtitles">
+                <h2 class="links activelink" onclick="opentab('skills')">
+                  Skills
+                </h2>
+                <div class="tabcontents activetab" id="skills">
+                  <ul>
+                    <li>
+                      <span>Solar Photovoltaic</span><br />Design and
+                      installation of Solar systems
+                    </li>
+                    <li>
+                      <span>Electrical and Electronics</span><br />Design,
+                      repair and troubleshooting of Electrical and Electronic
+                      systems
+                    </li>
+                    <li>
+                      <span>Data Analysis</span><br />Good use of Microsoft
+                      Excel and Google Sheets
+                    </li>
+                  </ul>
+                </div>
+                <h2 class="links activelink" onclick="opentab('experience')">
+                  Experience
+                </h2>
+                <div class="tabcontents" id="experience">
+                  <ul>
+                    <li>
+                      <span>2022 - Current</span><br />Frontend development
+                      Training at I4GxZuri Cohort2
+                    </li>
+                    <li>
+                      <span>2021 - Current</span><br />Executive Assistant at
+                      Latimer Energy and BFA Foundation
+                    </li>
+                    <li>
+                      <span>2020-2021</span><br />Solar Engineer Intern at OOLU
+                      Solar
+                    </li>
+                  </ul>
+                </div>
+                <h2 class="links activelink" onclick="opentab('education')">
+                  Education
+                </h2>
+                <div class="tabcontents" id="education">
+                  <ul>
+                    <li>
+                      <span>2020</span><br />Solar Installation and Design with
+                      Entreprenuership at RETTI
+                    </li>
+                    <li>
+                      <span>2019</span><br />BEng from University of Nigeria
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--     SERVICES SECTION   -->
+      <div id="Services">
+        <div class="container">
+          <hi class="subtitle">My Services</hi>
+          <div class="Services-list">
+            <div>
+              <h2>Solar Installation and Design</h2>
+              <p>Off-grid, Mini-grid, Hybrid and Solar home systems</p>
+              <a href="#">Learn more</a>
+            </div>
+            <div>
+              <h2>Admininstration and Management</h2>
+              <p>
+                Office adminstration and management, Executive and Personal
+                Assistance
+              </p>
+              <a href="#">Learn more</a>
+            </div>
+            <div>
+              <h2>Electrical and Electronic System</h2>
+              <p>
+                Repair and troubleshooting, Surface and Conduit Wiring, Power
+                systems and PCB designs
+              </p>
+              <a href="#">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--       PORTFOLIO SECTION -->
+      <div id="Portfolio">
+        <div class="container">
+          <hi class="subtitle">Related Work</hi>
+          <div class="Worklist">
+            <div class="Work">
+              <img src="IMAGES2/IMG_1722.JPG" />
+              <div class="layer">
+                <h3>Simple Solar to Home Connection</h3>
+                <p>
+                  This diagram shows the simple connection of a full solar
+                  system to a home and it is capable of powering it
+                  sufficiently.
+                </p>
+                <a href="#">Read More</a>
+              </div>
+            </div>
+            <div class="Work">
+              <img src="IMAGES2/IMG_1719.JPG" />
+              <div class="layer">
+                <h3>Technician working on a mini-grid system</h3>
+                <p>
+                  A mini-grid system is a set of small-scale electricity
+                  generators and energy storage systems interconnected to a
+                  distribution network that supplies electricity to a small,
+                  localised group of customers and operates independently from
+                  the national transmission grid.
+                </p>
+                <a href="#">Read More</a>
+              </div>
+            </div>
+            <div class="Work">
+              <img src="IMAGES2/IMG_1718.JPG" />
+              <div class="layer">
+                <h3>Inverters and Battery System</h3>
+                <p>
+                  This part of the solar system is located indoors or outdoors
+                  in a secluded area that is area and shielded from moist, heavy
+                  sunshine and rainfall. This is the part of the system that
+                  collects, stores and distribute the energy which is harvested
+                  by the solar panels.
+                </p>
+                <a href="#">Read More</a>
+              </div>
+            </div>
+          </div>
+          <a href="#" class="btn">See more</a>
+        </div>
+      </div>
+    </main>
+    <!--     CONTACT SECTION -->
+    <footer>
+      <div id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="Contact-left">
+              <h1 class="subtitle">Contact Me</h1>
+              <p>
+                <i class="fa-solid fa-paper-plane"></i>uchennahenrym@gmail.com
+              </p>
+              <p><i class="fa-solid fa-square-phone"></i>+2349080421648</p>
+              <div class="social-icons">
+                <a href="https://facebook.com/uchennahenry"
+                  ><i class="fa-brands fa-facebook"></i
+                ></a>
+                <a href="https://twitter.com/HMUchenna"
+                  ><i class="fa-brands fa-twitter"></i
+                ></a>
+                <a href="https://instagram.com/henry_uchaay"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+                <a href="https://linkedin.com/in/uchenna-henry"
+                  ><i class="fa-brands fa-linkedin"></i
+                ></a>
+              </div>
+              <a href="IMAGES/UCHENNA HENRY.pdf" download class="btn btn2"
+                >Download CV</a
+              >
+            </div>
+            <div class="Contact-right">
+              <form>
+                <input
+                  type="text"
+                  name="Name"
+                  placeholder="Full Name"
+                  required
+                />
+                <input type="email" name="email" placeholder="Email" required />
+                <textarea
+                  name="Message"
+                  rows="6"
+                  placeholder="Enter text"
+                ></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>
+            Copyright © HUM. Made with<i class="fa-solid fa-heart"></i> from
+            Uchennah
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
