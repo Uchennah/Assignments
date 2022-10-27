@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #1a1c28;
+  display: flex;
+  place-items: center;
+  height: 100vh;
+}
+main {
+  display: grid;
+  grid-template-areas:
+    "a a b"
+    "c d d"
+    "c e e";
+  gap: 15px;
+  width: 50%;
+  margin: auto;
+}
+main div {
+  padding: 2em;
+  align-items: center;
+  text-align: center;
+}
+.A {
+  background-color: #eb5020;
+  grid-area: a;
+  height: 150px;
+  width: 400px;
+}
+.B {
+  background-color: #ffa401;
+  grid-area: b;
+  width: 150px;
+}
+.C {
+  background-color: #05aa42;
+  grid-area: c;
+  width: 250px;
+}
+.D {
+  background-color: #01aefd;
+  grid-area: d;
+  height: 35px;
+}
+.E {
+  background-color: #01aefd;
+  grid-area: e;
+  height: 70px;
+}
